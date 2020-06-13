@@ -8,9 +8,7 @@ const multipleArgFn = (x, y, z) => x + y + z;
 
 const memoizedSingleArgFn = memoizeSingleArgument(singleArgFn);
 const memoizedSingleArgMapFn = memoizeSingleArgumentMap(singleArgFn);
-
 const memoizedMultipleArgFnMap = memoizeMultipleArgumentsMap(multipleArgFn);
-
 const memoizedMultipleArgFnMapSymbol = memoizeMultipleArgumentsMapSymbol(
   multipleArgFn
 );
